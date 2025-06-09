@@ -1,15 +1,19 @@
+import '../css/Projects.css';
+import projects from '../data/projects.json';
+import ProjectCard from './ProjectCard';
+
 const Projects = () => {
   return (
-    <div className="projects-section">
+    <div className="projects">
       <h2>My Projects</h2>
-      <div className="project-card">
-        <h3>Meal Planner App</h3>
-        <p>A React app to plan meals and generate shopping lists.</p>
-      </div>
-      <div className="project-card">
-        <h3>Virtual Art Gallery</h3>
-        <p>A portfolio site to display my mother's paintings.</p>
-      </div>
+      <p>You can view some of my projects below.</p>
+      <div className='projects-grid'>
+                {projects.map(project => {
+                    console.log(project)
+                    return <ProjectCard project={project} key={project.id} />
+                }
+                )}
+            </div>
     </div>
   );
 };

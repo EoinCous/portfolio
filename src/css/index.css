@@ -5,7 +5,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   --colourprimary: white;
-  --coloursecondary: black;
+  --coloursecondary: #333;
   --colouraccent: #007BFF;
   --ff: Inter, sans-serif;
   --h1: bold 54px/64px var(--ff);

@@ -10,19 +10,12 @@ footer p {
   font-size: medium;
 }
 
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.footer-nav a {
+.footer a {
   text-decoration: none;
   color: var(--colourprimary);
   font-weight: 500;
 }
 
-.footer-nav a:hover {
-  color: #0077cc;
+.footer a:hover {
+  color: var(--colouraccent);
 }

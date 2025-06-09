@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Meal Planner App",
+        "description": "A React app to plan weekly meals and generate shopping lists.",
+        "image": "/images/portrait.jpeg",
+        "tech": ["React", "Vite", "CSS"],
+        "link": "https://shopping-list-generator-phi.vercel.app/"
+  },
+  {
+    "id": 2,
+        "title": "Neural Network Comparison",
+        "description": "Develop and compare state of the art transformer vs simpler NNs.",
+        "image": "/images/meal-planner.png",
+        "tech": ["Python"],
+        "link": "https://github.com/EoinCous/Deep_Learning_Project"
+  }
+]

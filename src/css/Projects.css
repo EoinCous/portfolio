@@ -1,0 +1,25 @@
+.projects {
+    background-color: var(--coloursecondary);
+    color: var(--colourprimary);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.projects p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}

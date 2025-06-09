@@ -1,0 +1,15 @@
+One page with a navbar and footer
+Navbar links scroll to sections
+
+Sections:
+Navbar
+About
+    - Photo of me
+    - Introduction paragraph
+My Projects
+Skills
+Contact form pop-up to email message to me
+
+Get inspiration from ZachJordan.io
+
+Alternate background colors each section

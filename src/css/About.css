@@ -3,12 +3,26 @@
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid var(--coloursecondary);
+  border: 5px solid var(--coloursecondary);
   max-width: 100%;
   display: block;
   margin: 20px auto;
 }
 
 .profile-pic:hover {
-    border: 3px solid var(--colouraccent);
+  border: 5px solid var(--colouraccent);
+}
+
+.introduction p {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.6;
+  color: var(--coloursecondary);   
+}
+
+.introduction .name {
+  color: var(--colouraccent);
 }
