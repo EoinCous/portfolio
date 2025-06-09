@@ -1,0 +1,41 @@
+import { useState } from 'react';
+import '../css/Header.css';
+
+const Header = ({onContactClick}) => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  };
+
+  return (
+    <header className='header'>
+      <nav className="navbar">
+        <h1 className='logo' onClick={() => scrollToSection('about')}>Eoin Cousins</h1>
+
+        <button className="burger" onClick={toggleMenu}>
+          {menuOpen ? '✕' : '☰'}
+        </button>
+
+        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
+          <li onClick={() => {  
+            setMenuOpen(false)
+            scrollToSection('about')
+            }}>About</li>
+          <li onClick={() => {
+            setMenuOpen(false)
+            scrollToSection('projects')
+            }}>Projects</li>
+          <li onClick={() => {
+            setMenuOpen(false)
+            scrollToSection('skills')
+            }}>Skills</li>
+          <li onClick={onContactClick}>Contact</li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+export default Header;
