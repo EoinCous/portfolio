@@ -21,8 +21,8 @@
 }
 
 .skill-badge {
-  background-color: #007BFF; /* Accent color */
-  color: white;
+  background-color: var(--colouraccent);
+  color: var(--colourprimary);
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 1rem;

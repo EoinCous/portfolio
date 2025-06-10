@@ -34,7 +34,10 @@ const Header = ({onContactClick}) => {
             setMenuOpen(false)
             scrollToSection('skills')
             }}>Skills</li>
-          <li onClick={onContactClick}>Contact</li>
+          <li onClick={() => {
+            setMenuOpen(false)
+            onContactClick()
+          }}>Contact</li>
         </ul>
       </nav>
     </header>
