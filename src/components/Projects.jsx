@@ -8,12 +8,8 @@ const Projects = () => {
       <h2>My Projects</h2>
       <p>You can view some of my projects below.</p>
       <div className='projects-grid'>
-                {projects.map(project => {
-                    console.log(project)
-                    return <ProjectCard project={project} key={project.id} />
-                }
-                )}
-            </div>
+        {projects.map(project => <ProjectCard project={project} key={project.id} /> )}
+      </div>
     </div>
   );
 };

@@ -12,7 +12,10 @@ const Header = ({onContactClick}) => {
   return (
     <header className='header'>
       <nav className="navbar">
-        <h1 className='logo' onClick={() => scrollToSection('about')}>Eoin Cousins</h1>
+        <h1 
+          className='logo' 
+          onClick={() => scrollToSection('about')}
+        >EC</h1>
 
         <button className="burger" onClick={toggleMenu}>
           {menuOpen ? '✕' : '☰'}

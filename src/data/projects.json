@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "title": "Meal Planner App",
-        "description": "A React app to plan weekly meals and generate shopping lists.",
-        "image": "/images/portrait.jpeg",
+        "title": "BitePlan",
+        "description": "A meal planner app to plan weekly meals and generate shopping lists.",
+        "image": "/images/biteplan.png",
         "tech": ["React", "Vite", "CSS"],
         "link": "https://shopping-list-generator-phi.vercel.app/"
   },
@@ -11,8 +11,25 @@
     "id": 2,
         "title": "Neural Network Comparison",
         "description": "Develop and compare state of the art transformer vs simpler NNs.",
-        "image": "/images/meal-planner.png",
+        "image": "/images/neural-network.png",
         "tech": ["Python"],
         "link": "https://github.com/EoinCous/Deep_Learning_Project"
+  },
+  {
+    "id": 3,
+        "title": "Miggeldy",
+        "description": "A 2D platformer game built in Java where the player must progress through levels, collect power-ups, and avoid obstacles to reach the end goal without running out of lives.",
+        "image": "/images/miggeldy.png",
+        "tech": ["Java"],
+        "link": "https://github.com/EoinCous/Miggeldy_2D_Platformer"
+  }
+  ,
+  {
+    "id": 4,
+        "title": "QR Code Generator",
+        "description": "A python script that generates a QR code when you submit a URL.",
+        "image": "/images/qr-code.svg",
+        "tech": ["Python"],
+        "link": "https://github.com/EoinCous/Python_Scripts"
   }
 ]

@@ -1,29 +1,36 @@
-.email-form {
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  margin-top: 2rem;
+  z-index: 1000;
 }
 
-.email-form form {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+.email-form {
+  background-color: var(--coloursecondary);
+  color: var(--colourprimary);
+  padding: 30px;
+  border-radius: 8px;
+  width: 90%;
   max-width: 400px;
+  position: relative;
 }
 
-.email-form form input[type="email"] {
-  padding: 0.6rem 1rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  outline: none;
-  transition: border-color 0.2s;
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-.email-form form input[type="email"]:focus {
-  border-color: var(--colouraccent1);
+.close-button:hover {
+  background-color: var(--colourprimary);
+  color: var(--coloursecondary);
 }

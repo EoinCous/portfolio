@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import ContactModal from './components/ContactModal';
+import EmailForm from './components/EmailForm';
 import './css/App.css';
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
       <section id="projects"><Projects /></section>
       <section id="skills"><Skills /></section>
       <Footer />
-      {isModalOpen && <ContactModal onClose={() => setIsModalOpen(false)} />}
+      {isModalOpen && <EmailForm onClose={() => setIsModalOpen(false)} />}
     </div>
   );
 };
