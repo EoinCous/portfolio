@@ -1,8 +1,8 @@
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
-import '../css/EmailForm.css';
+import '../css/Contact.css';
 
-const EmailForm = ({ onClose }) => {
+const Contact = ({ onClose }) => {
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userMessage, setUserMessage] = useState("");
@@ -41,29 +41,32 @@ const EmailForm = ({ onClose }) => {
           <button className="close-button" onClick={onClose}>X</button>
             <h3>Contact Me</h3>
             <form onSubmit={sendEmail}>
+              <label>Name:</label>
               <input
-                type="text"
-                placeholder="John Smith"
-                value={userName}
-                onChange={(e) => setUserName(e.target.value)}
-                maxLength={100}
-                required
+                  type="text"
+                  placeholder="John Smith"
+                  value={userName}
+                  onChange={(e) => setUserName(e.target.value)}
+                  maxLength={100}
+                  required
                 />
+                <label>Email:</label>
                 <input
-                type="email"
-                placeholder="johnsmith@example.com"
-                value={userEmail}
-                onChange={(e) => setUserEmail(e.target.value)}
-                maxLength={100}
-                required
+                  type="email"
+                  placeholder="johnsmith@example.com"
+                  value={userEmail}
+                  onChange={(e) => setUserEmail(e.target.value)}
+                  maxLength={100}
+                  required
                 />
-                <input
-                type="text"
-                placeholder="Enter your message"
-                value={userMessage}
-                onChange={(e) => setUserMessage(e.target.value)}
-                maxLength={1000}
-                required
+                <label>Message:</label>
+                <textarea
+                  placeholder="Enter your message"
+                  value={userMessage}
+                  onChange={(e) => setUserMessage(e.target.value)}
+                  rows={4}
+                  maxLength={1000}
+                  required
                 />
                 <button type="submit">Send Message</button>
             </form>
@@ -72,4 +75,4 @@ const EmailForm = ({ onClose }) => {
     );
 };
 
-export default EmailForm;
+export default Contact;

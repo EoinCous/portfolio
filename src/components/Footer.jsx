@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <p>© Eoin Cousins Portfolio {new Date().getFullYear()}</p>
       <p>
-        <a href="https://github.com/EoinCous" target="_blank" rel="noopener noreferrer"><SiGithub /></a>  |  <a href="https://www.linkedin.com/in/eoin-cousins/" target="_blank" rel="noopener noreferrer"><SiLinkedin /></a>
+        <a href="https://github.com/EoinCous" target="_blank" rel="noopener noreferrer">Github <SiGithub /></a>  |  <a href="https://www.linkedin.com/in/eoin-cousins/" target="_blank" rel="noopener noreferrer">LinkedIn <SiLinkedin /></a>
       </p>
     </footer>
   );

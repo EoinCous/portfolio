@@ -47,6 +47,17 @@
   color: var(--colourprimary);
 }
 
+.nav-links li a {
+  color: var(--coloursecondary);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-links li a:hover {
+  color: var(--colourprimary);
+}
+
 /* Hide burger on desktop */
 .burger {
   display: none;

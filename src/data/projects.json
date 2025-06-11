@@ -22,8 +22,7 @@
         "image": "/images/miggeldy.png",
         "tech": ["Java"],
         "link": "https://github.com/EoinCous/Miggeldy_2D_Platformer"
-  }
-  ,
+  },
   {
     "id": 4,
         "title": "QR Code Generator",
@@ -31,5 +30,13 @@
         "image": "/images/qr-code.svg",
         "tech": ["Python"],
         "link": "https://github.com/EoinCous/Python_Scripts"
+  },
+  {
+    "id": 5,
+        "title": "Suduko Solver",
+        "description": "Completes any unfinished suduko combination.",
+        "image": "/images/suduko.png",
+        "tech": ["Java"],
+        "link": "https://github.com/EoinCous/SudokuSolver"
   }
 ]

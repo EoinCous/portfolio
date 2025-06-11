@@ -9,6 +9,10 @@ const Header = ({onContactClick}) => {
     document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
   };
 
+  const downloadCV = () => {
+    console.log("Downloading CV")
+  }
+
   return (
     <header className='header'>
       <nav className="navbar">
@@ -34,10 +38,13 @@ const Header = ({onContactClick}) => {
             setMenuOpen(false)
             scrollToSection('skills')
             }}>Skills</li>
+          <li onClick={() => setMenuOpen(false)}>
+            <a href="/CV_EoinCousins.pdf" download>Download CV</a>
+          </li>
           <li onClick={() => {
             setMenuOpen(false)
             onContactClick()
-          }}>Contact</li>
+          }}>Contact Me</li>
         </ul>
       </nav>
     </header>
