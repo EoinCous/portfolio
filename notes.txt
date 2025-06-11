@@ -13,3 +13,9 @@ Contact form pop-up to email message to me
 Get inspiration from ZachJordan.io
 
 Alternate background colors each section
+
+TODO:
+Add animations and transitions
+Implement dark mode
+Create project detail pages
+Add more projects
