@@ -4,11 +4,19 @@
         "title": "BitePlan",
         "description": "A meal planner app to plan weekly meals and generate shopping lists.",
         "image": "/images/biteplan.png",
-        "tech": ["React", "Vite", "CSS"],
-        "link": "https://shopping-list-generator-phi.vercel.app/"
+        "tech": ["React", "Vite", "CSS", "Node.js", "MongoDB", "Cloudinary"],
+        "link": "https://meal-planner-ivory-three.vercel.app/"
   },
   {
     "id": 2,
+        "title": "Workout Tracker",
+        "description": "Generate workout routines and track progress.",
+        "image": "/images/workout.png",
+        "tech": ["React", "Vite", "CSS"],
+        "link": "https://github.com/EoinCous/workout-logger"
+  },
+  {
+    "id": 3,
         "title": "Neural Network Comparison",
         "description": "Develop and compare state of the art transformer vs simpler NNs.",
         "image": "/images/neural-network.png",
@@ -16,7 +24,7 @@
         "link": "https://github.com/EoinCous/Deep_Learning_Project"
   },
   {
-    "id": 3,
+    "id": 4,
         "title": "Miggeldy",
         "description": "A 2D platformer game built in Java where the player must progress through levels, collect power-ups, and avoid obstacles to reach the end goal without running out of lives.",
         "image": "/images/miggeldy.png",
@@ -24,7 +32,7 @@
         "link": "https://github.com/EoinCous/Miggeldy_2D_Platformer"
   },
   {
-    "id": 4,
+    "id": 5,
         "title": "QR Code Generator",
         "description": "A python script that generates a QR code when you submit a URL.",
         "image": "/images/qr-code.svg",
@@ -32,7 +40,7 @@
         "link": "https://github.com/EoinCous/Python_Scripts"
   },
   {
-    "id": 5,
+    "id": 6,
         "title": "Suduko Solver",
         "description": "Completes any unfinished suduko combination.",
         "image": "/images/suduko.png",
