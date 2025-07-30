@@ -12,7 +12,7 @@ const ProjectCard = ({project}) => {
                 <div className="project-info">
                     <h3 className="project-name">{project.title}</h3>
                     <p className="project-description">{project.description}</p>
-                    <p className="project-tech">{project.tech}</p>
+                    <p className="project-tech">{project.tech.join(', ')}</p>
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">Click to view</a>
                 </div>
         </div>

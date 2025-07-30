@@ -28,7 +28,7 @@ const Skills = () => {
           <span className="skill-badge"><SiJenkins /> Jenkins</span>
           <span className="skill-badge"><SiGradle /> Gradle</span>
           <span className="skill-badge"><SiApachemaven /> Maven</span>
-          <span className="skill-badge">Avro</span>
+          <span className="skill-badge">SQL</span>
         </div>
       </div>
 
@@ -38,7 +38,7 @@ const Skills = () => {
           <span className="skill-badge"><FaJs /> JavaScript</span>
           <span className="skill-badge"><SiHtml5 /> HTML</span>
           <span className="skill-badge"><SiCss3 /> CSS</span>
-          <span className="skill-badge"><SiReact /> React (Basic)</span>
+          <span className="skill-badge"><SiReact /> React</span>
         </div>
       </div>
 

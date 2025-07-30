@@ -7,7 +7,7 @@ const About = () => {
       <div className='introduction'>
         <p>
           Hey, I'm <span className='name'>Eoin Cousins</span>. 
-          I'm a backend software engineer currently learning React to become a full-stack developer. 
+          I’m a full stack software engineer with professional backend experience and a strong focus on building clean, user-friendly frontends with React. 
           Here you can find out about some projects I have worked on.</p>
       </div>
     </div>
