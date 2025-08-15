@@ -12,7 +12,7 @@
         "title": "RepLog",
         "description": "Plan workouts and track progress.",
         "image": "/images/workout.png",
-        "tech": ["React", "Vite", "CSS"],
+        "tech": ["React", "Vite", "CSS", "Supabase"],
         "link": "https://workout-logger-gamma.vercel.app/"
   },
   {
