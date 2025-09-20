@@ -1,19 +1,27 @@
 [
-    {
-        "id": 1,
-        "title": "BitePlan",
-        "description": "A meal planner app to plan weekly meals and generate shopping lists.",
-        "image": "/images/biteplan.png",
-        "tech": ["React", "Vite", "CSS", "Node.js", "MongoDB", "Cloudinary"],
-        "link": "https://meal-planner-ivory-three.vercel.app/"
+  {
+    "id": 1,
+    "title": "RepLog",
+    "description": "Plan workouts and track progress.",
+    "image": "/images/workout.png",
+    "tech": ["React", "Vite", "CSS", "Supabase"],
+    "link": "https://workout-logger-gamma.vercel.app/"
   },
   {
     "id": 2,
-        "title": "RepLog",
-        "description": "Plan workouts and track progress.",
-        "image": "/images/workout.png",
-        "tech": ["React", "Vite", "CSS", "Supabase"],
-        "link": "https://workout-logger-gamma.vercel.app/"
+    "title": "Shopping List",
+    "description": "A smart a real time sync shopping list",
+    "image": "/images/workout.png",
+    "tech": ["React", "Vite", "CSS", "Spring Boot", "PostgreSQL"],
+    "link": "https://shopping-list-kappa-eight.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "BitePlan",
+    "description": "A meal planner app to plan weekly meals and generate shopping lists.",
+    "image": "/images/biteplan.png",
+    "tech": ["React", "Vite", "CSS", "Node.js", "MongoDB", "Cloudinary"],
+    "link": "https://meal-planner-ivory-three.vercel.app/"
   },
   {
     "id": 3,
